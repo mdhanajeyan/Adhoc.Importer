@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<columns>
+	<column>
+		<entity>Brand</entity>
+		<entityColumn>Id</entityColumn>
+		<foreignKey>1</foreignKey>
+		<name>CompanyCode</name>
+		<targetTable>dbo.Company</targetTable>
+		<targetColumn>Code</targetColumn>
+	</column>
+</columns>

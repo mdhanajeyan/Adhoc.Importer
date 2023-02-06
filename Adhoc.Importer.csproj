@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="FastMember" Version="1.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="NLog" Version="4.7.2" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Adhoc.Common">
+      <HintPath>..\Adhoc.Common\bin\Debug\net6.0\Adhoc.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Pdx.Core.Business">
+      <HintPath>S:\builds\Core\Pdx.Core.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Pdx.Core.Common">
+      <HintPath>S:\builds\Core\TmpBuild\Pdx.Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Pdx.Core.Data">
+      <HintPath>S:\builds\Core\Pdx.Core.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Pdx.Core.Data.Dapper">
+      <HintPath>S:\builds\Core\Pdx.Core.Data.Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Pdx.Core.Model">
+      <HintPath>S:\builds\Core\Pdx.Core.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Pricedex.Pim.Business">
+      <HintPath>..\..\..\..\..\svn\Core\Web\Dorman\branches\releases\1.4\Pricedex.Pim\Pricedex.Pim.Business\bin\Debug\netstandard2.1\Pricedex.Pim.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="Pricedex.Pim.Data">
+      <HintPath>..\..\..\..\..\svn\Core\Web\Dorman\branches\releases\1.4\Pricedex.Pim\Pricedex.Pim.Data\bin\Debug\netstandard2.1\Pricedex.Pim.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Pricedex.Pim.Model">
+      <HintPath>S:\builds\Core\Pricedex.Pim.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="XmlDocs\Brand.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

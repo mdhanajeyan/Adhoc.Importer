@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Adhoc.Importer": {
+      "commandName": "Project",
+      "commandLineArgs": "/jobId=1033"
+    }
+  }
+}

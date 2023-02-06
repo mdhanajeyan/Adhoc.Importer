@@ -1,0 +1,53 @@
+{
+  "Smtp": {
+    "Server": "mail.pricedex.com",
+    "User": "pdxservice",
+    "Password": "Pd032410!",
+    "Port": "587",
+    "From": "webmaster@pricedex.com"
+  },
+  "ConnectionStrings": {
+    //"PdxConnection": "Server=.\\s2016; Database=pim2_beta4; User Id=pricedex_adm; Password=Pd032410!; Trusted_Connection=False; MultipleActiveResultSets=True"
+    //"PdxConnection": "Server=10.18.20.12\\s2019; Database=DormanPim2_1_3; User Id=pricedex; Password=pricedex; Trusted_Connection=False; MultipleActiveResultSets=True;Connection Timeout=60"
+    "PdxConnection": "Server=(localdb)\\MSSQLLocalDb; Database=dorman_pim2_13; User Id=pricedex; Password=pricedex!; Trusted_Connection=True; MultipleActiveResultSets=True"
+  },
+  "AcaSettings": {
+    "CommandTimeoutInSeconds": 1800,
+    "ProceedIfSourceDatabaseExist": false,
+    "ErrorMailRecipient": "dhanajeyan@cgvakindia.com"
+  },
+  "CarryUpSettings": {
+    "CommandTimeoutInSeconds": 1800,
+    "ErrorMailRecipient": "dhanajeyan@cgvakindia.com"
+  },
+  "PadbSettings": {
+    "CommandTimeoutInSeconds": 1800,
+    "ErrorMailRecipient": "dhanajeyan@cgvakindia.com"
+  },
+  "PiesImportSettings": {
+    "CommandTimeoutInSeconds": 1800,
+    "ImportXmlNameSpace": "http://www.autocare.org",
+    "XsdSchemaDirectory": "D:\\Core\\Apps\\Adhoc.Import\\Adhoc.Import\\Xsd\\",
+    "IsDebug": false,
+    "ErrorMailRecipient": "dhanajeyan@cgvakindia.com"
+  },
+  "PiesExportSettings": {
+    "CommandTimeoutInSeconds": 1800,
+    "Customer": "Dorman",
+    "Environment": "DJ's Machine",
+    "ErrorMailRecipient": "dhanajeyan@cgvakindia.com"
+  },
+  "QueryBuilderSettings": {
+    "CommandTimeoutInSeconds": 1800,
+    "ExportRecordBatchSize": 1000,
+    "ErrorMailRecipient": "dhanajeyan@cgvakindia.com"
+  },
+
+  "AdhocImportSettings": {
+    "CommandTimeoutInSeconds": 1800,
+    "Customer": "Dorman",
+    "Environment": "DJ's Machine",
+    "XsdDirectory": "D:\\Core\\Apps\\Adhoc.Import\\Adhoc.Import\\Xsd\\",
+    "ErrorMailRecipient": "dhanajeyan@cgvakindia.com"
+  }
+}
